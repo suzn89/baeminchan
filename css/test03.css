@@ -1,0 +1,21 @@
+/* body {background:red} */
+* { margin:0; padding:0;}
+#wrap { width:1000px; margin:0 auto;}
+#box_a { height:400px; background:#f1779e; float:left; width:20%;}
+#box_b { height:200px; background:#fcb354; width:80%; float:left;}
+#box_c { height:200px; background:#24bbaf; width:80%; float:left;}
+
+/* ctrl+Alt+4 */
+@media screen and (max-width:1024px) {
+    #wrap { width:90%; }
+}
+@media screen and (max-width:800px) {
+    #wrap { width:100%;}
+	#box_a {float:none; width:100%;}
+	#box_b {float:none; width:100%;}
+	#box_c {float:none; width:100%;}
+}
+
+
+/* body { text-align:center; } */
+/* img { display:block; margin:0 auto; } */
